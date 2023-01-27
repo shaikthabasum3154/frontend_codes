@@ -1,0 +1,29 @@
+#grid-container
+{
+    width:70%;
+    height:600px;
+    background-color:crimson;
+    border-width:8px;
+    border-color: black;
+    display:grid;
+    grid-template-columns: 200px 200px 200px;
+    /*grid-template-rows:150px 300px;*/
+    grid-auto-rows: 250px;
+    /* grid-column-gap:20px;
+    grid-row-gap:30px;*/
+    grid-gap:50px;
+    justify-content:space-areound;
+    align-content:center;
+}
+.grid-item
+{
+ border:10px ridge lime;
+    font-size:30px;
+    font-weight:bold;
+    color:white;
+    text-align:center;
+    text-transform: capitalize;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}

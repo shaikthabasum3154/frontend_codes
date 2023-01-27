@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML max min form</title>
+</head>
+<body>
+    <form>
+    <label>Enter college name</label>
+    <!-- type="text",type="password" and type="email" type="textarea" -->
+    <input placeholder="college name" minlength="5" maxlength="20">
+    <br><br>
+    <!-- minlength and maxlength is used for to give count the characters -->
+    <label>enter review</label>
+    <textarea minlength="10" maxlength="50"></textarea>
+        <br><br>
+        <!-- min ,max can be used with number,date, month,to give the range for the number/date  -->
+        <label>Enter the number(enter 10-100)</label>
+        <input type="number" min="10" max="100">
+        <br><br>
+        <label>Enter age for pancard registration</label>
+        <input type="number" min="18">
+        <br><br>
+        <label>select date(before 2010)</label>
+        <input type="date" max="2010-12-31">
+        <br><bR>
+            <label>select date (after 2021)</label>
+            <input type="date" min="2022-01-01">
+            <br><br>
+            <label>Select date of joining(from dec2022 to 10yrs back)</label>
+            <input type="date" min="2012-01-01" max="2022-12-31">
+            <br><br>
+            <label>Expiry date:</label>
+            <input type="month" min="2010-03" max="2022-06">
+            <br><br>
+            <h1>dropdown list</h1>
+            <!-- to do mandatory field put select with required and also option pass a value 1st empty and next we can give 1 2 3 4 etc.. -->
+            <label>select a colour:</label>
+            <select required style="font-size:20px;">
+                <option value="">-select-</option>
+                <option value="1">blueyellow</option>
+                <option value="2">green</option>
+                <option value="3">indigo</option>
+                <option value="4">pink</option>
+
+            </select>
+            <br><br>
+          <input type="submit" value="verify"  style="font-size:30px;"> 
+    
+   
+    </form>
+    
+</body>
+</html>

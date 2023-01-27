@@ -1,0 +1,29 @@
+.fields
+{
+    font-size: 30px;
+    text-align: center;
+    padding:10px;
+    text-transform: capitalize;
+    letter-spacing: 10px;
+    border-width: 5px;
+}
+label
+{
+    font-size:30px;
+}
+.fields:required
+{
+    background-color: chartreuse;
+}
+.fields:optional
+{
+    background-color: darkslategray;
+}
+.fields:disabled
+{
+    border-color: maroon;
+}
+.fields:enabled
+{
+    border-color: blue;
+}

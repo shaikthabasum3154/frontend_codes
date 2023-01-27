@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Forms</title>
+    <style>
+        h1{
+            font-size:50px;
+        }
+    </style>
+</head>
+
+<body style="background-color: rgb(205, 228, 192); font-family: 'Comfortaa', cursive;">
+    <center>
+        <h1><ins>HTML FORMS</ins></h1>
+    </center>
+    <br>
+    1. As a programmer we use d html forms to take values from users into the application. <br>
+    <br>
+    2. programmatically html forms consists two important components<br>
+    &nbsp; &nbsp;* Label<br>
+    &nbsp; &nbsp;* Input box<br>
+    <br>
+ 3. Labels are the directions provided for users to enter appropriate data whereas input is the actual datawhich is
+    provided by the user.<br>
+    <br>
+    4. Labels are indicated by using &lt;label&gt; &lt;/label&gt; and to get data from user we have to create input box
+    and it is represented by using &lt;input&gt; &lt;/input&gt;<br>
+    <br>
+    5. to create a html forms we have to use "&lt;form&gt; &lt;/form&gt;" tag. <br>
+    <br>
+    <h2>INPUT TYPE and their behaviour</h2>
+    &lt;input type = "text"&gt;
+    &nbsp; ---> user can enter alphabets, numbers, and special symbols.</tr>
+    <br>
+    <br>
+    &lt;input type = "number"&gt;
+    &nbsp; ---> user can enter only numbers. <br>
+    <br>
+    &lt;input type = "password"&gt;
+    &nbsp; ---> user can enter alphabets, numbers, and special symbols but all will be replaced with solid sphere. <br>
+    <br>
+    &lt;input type = "Submit"&gt;
+    &nbsp; ---> user can submit the form by form by clicking on it. <br>
+    <br>
+    &lt;input type = "radio"&gt;
+    &nbsp; ---> user will be given with radio button which results in single selection. <br>
+    <br>
+    &lt;input type = "checkbox"&gt;
+    &nbsp; ---> user will be given with checkbox which results in multiple selections. <br>
+    <br>
+    &lt;input type = "date"&gt;
+    &nbsp; ---> user can enter the date in the format dd-mm-yyyy and also get the calendar view. <br>
+    <br>
+    &lt;input type = "reset"&gt;
+    &nbsp; ---> user can cleae the values which entered by them. <br>
+    <br>
+    &lt;input type = "month"&gt;
+    &nbsp; ---> user will get the calendar with only month and year. <br>
+    <br>
+    &lt;input type = "time"&gt;
+    &nbsp; ---> user will get the option to enter the time with different values. <br>
+    <br>
+    &lt;input type = "email"&gt;
+    &nbsp; --->user can enter a valid pattern of email-id in input box. <br> 
+    <br>
+    &lt;input type = "file"&gt;
+    &nbsp; ---> user will get an option to upload the file. <br>
+    <br>
+    * By default if programmer doesn't used "type" attribute with &lt; input &gt; tag there then it have default value as "text." <br>
+    <br>
+    * To change the name of submit button with &lt; input &gt; tag programmer are using "value" attribute. <br>
+    <br>
+    <h4>NOTE</h4>
+    <p>1. As a programmer we can't pass "year" as a values for type attribute. </p>
+    <p>2. Date value of type attribute will show the format depends on users system. </p>
+    <p>3. To create watermark on the input box we make use of "placeholder" within &lt;input&gt;. </p>
+    <p>4. To make fields mandatory on webpage in html forms with input tags make use of "required" attributes.</p>
+
+    <h3>Example:</h3>
+    Htmlform.html <br>
+    <br>
+
+    &lt;html &gt; <br>
+    &lt; head&gt; <br>
+    &lt; title&gt; HTML form &lt; /title&gt; <br>
+    &lt; /head&gt; <br>
+    &lt; body&gt; <br>
+    &lt; form&gt; <br>
+    &lt; h1&gt;Collection of user data &lt; /h1&gt; <br>
+    &lt; label&gt; Enter the first Name: &lt; /label&gt; <br>
+    &lt; input type = "text" required placeholer="first name"&gt; <br>
+    &lt; label&gt; Enter the last Name: &lt; /label&gt; <br>
+    &lt; input type = "text" required placeholer="last name"&gt; <br>
+    &lt;!--- if we restrict a user to enter only numbers---&gt; <br>
+    &lt; label&gt; Mobile Number&lt; /label&gt; <br>
+    &lt; input type = "number"&gt; <br>
+    &lt; label&gt; Email Id:&lt; /label&gt; <br>
+    &lt; input type = "email"&gt; <br>
+    &lt; /form&gt; <br>
+    &lt; /body&gt; <br>
+    &lt;/html &gt; <br>
+
+</body>
+
+</html>

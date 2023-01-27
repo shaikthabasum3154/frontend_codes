@@ -1,0 +1,72 @@
+#h1
+{
+    font-size:50px;
+    transition-duration: 5s;
+}
+#h1:hover
+{
+    background-color: yellowgreen;
+    color:blue;
+    font-weight: normal;
+}
+#di
+{
+    width:100px;
+    height:100px;
+    background-color: blueviolet;
+    transition-duration: 5s;
+    transition-delay: 5s;
+
+}
+#di:hover{
+    background-color: skyblue;
+    width:300px;
+    border:10px double blue;
+}
+#fieldset
+{
+    border-width:30px;
+    width:300px;
+    height:300px;
+    border-color:red;
+    transition-duration:3s, 5s, 8s;
+    transition-delay: 3s, 5s, 10s;
+    transition-property: border-color , background-color,border-radius;
+    transition-timing-function: steps(5);
+}
+#fieldset:hover{
+    border-color: green;
+    background-color: aqua;
+    border-radius:100%;
+}
+#sec1
+{
+    width:100%;
+    border:5px solid black;
+}
+.sec2
+{
+    background-color: slategray;
+    height:50px;
+    width:50px;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+#sec1:hover .sec2{
+  
+    margin-left:90%;
+    border-radius:50% 10% 50% 10%;
+    background-color:chartreuse;
+}
+#section1
+{
+    transition-timing-function: ease-in;
+}
+#section2
+{
+    transition-timing-function: ease-out;
+}
+.sec2:nth-child(3)
+{
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}

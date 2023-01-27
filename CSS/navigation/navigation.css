@@ -1,0 +1,41 @@
+#navigation
+{
+    background-image: linear-gradient(yellow,violet);
+    height:100px;
+    width:100%;
+    float:left;
+
+}
+#flex-container
+{
+    font-size:20px;
+    font-weight:bold;
+    font-family: sans-serif;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+   
+}
+body{
+    margin:0px;
+}
+.flex-items
+{
+    padding:10px;
+    transition:1s;
+    border:4px double black;
+}
+.flex-items:hover
+{
+    background-color:greenyellow;
+    border-radius: 20%;
+    width:max-content;
+    font-size:30px;
+    text-transform: uppercase;
+
+
+}
+a{
+    text-decoration: none;
+    color:black;
+}

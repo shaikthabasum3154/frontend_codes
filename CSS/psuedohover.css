@@ -1,0 +1,95 @@
+#button
+{
+    background-color: hotpink;
+    font-size: 30px;
+}
+body{
+    text-align: center;
+}
+#button:hover{
+    background-image: url(C:\Users/thabasum/OneDrive/Pictures/book2.jpeg);
+    background-repeat: no-repeat;
+    height:100vh;
+    background-size: cover;
+}
+h1{
+    font-size: 60px;
+    background-color: pink;
+}
+h1:hover {
+    font-family: cursive;
+    text-decoration: underline dotted 10px;
+    letter-spacing: 10px;
+    color:blueviolet;
+    background-image: linear-gradient(red,yellow);
+    width:60%;
+    padding:30px;
+
+}
+#d1
+{
+    background-color:black;
+    width:50%;
+    height:200px;
+
+}
+#d1:active
+{
+    color:white;
+    font-size:30px;
+    border:15px double yellowgreen;
+}
+h2{
+    margin-top: 5px;
+
+}
+#button:active{
+    background-color: red;
+    color:blue;
+    background: transparent;
+}
+.inputbox
+{
+    border-width:5px;
+    font-size:40px;
+    text-align:center;
+    text-transform: uppercase;
+    padding:30px;
+    margin-top:50px;
+}
+.inputbox:active{
+    background-color: violet;
+    border-color:green;
+    outline-color:green;
+}
+.inputbox:focus{
+    background-color:cyan;
+    border-width:10px;
+    border-radius:100px;
+
+}
+.inputbox:focus
+{
+    background-color: cyan;
+    border-width:10px;
+    border-radius:100px;
+
+}
+#ta
+{
+    font-size:40px;
+    text-align: center;
+}
+#ta.inputbox:focus
+{
+    background-image: linear-gradient(red,yellow);
+    border:15px double brown;
+    border-radius: 10% 0% 10% 0%;
+}
+#button:focus{
+    background-color: black;
+    color:white;
+    font-family: cursive;
+    font-size:30px;
+    font-weight: bold;
+}

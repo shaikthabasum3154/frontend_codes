@@ -1,0 +1,40 @@
+*
+{
+    padding:0px;
+    margin:0px;
+}
+div{
+    float:left;
+    width:50%;
+    height:300px;
+    background-color:aquamarine;
+}
+#left
+{
+    background-image: url("C:\Users/thabasum/OneDrive/Pictures/thab4.avif");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position:center-top;
+    transition-duration:20ms;
+}
+#left:hover
+{
+   
+    background-position: center;
+    background-size: 120% 700px;
+
+}
+#right
+{
+    background-image: url("C:\Users/thabasum/OneDrive/Pictures/thab4.avif");
+ background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: bottom-right;
+    transition-duration:20ms;
+}
+#right:hover
+{
+   
+    background-position: center;
+    background-size: 120% 700px;
+}

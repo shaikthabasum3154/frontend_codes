@@ -1,0 +1,29 @@
+#field
+{
+height:400px;
+width:70%;
+background-color:maroon;
+}
+h1{
+    text-align: center;
+}
+#f1
+{
+    height:150px;
+    width:50%;
+    font-size:30px;
+    text-align: center;
+    align-items:center;
+    margin-left:170px;
+    display:none;
+    background-color: yellowgreen;
+}
+#field:hover #f1{
+display:inline;
+}
+#p
+{
+    text-align: justify;
+    font-size:15px;
+    text-indent: 40px;
+}

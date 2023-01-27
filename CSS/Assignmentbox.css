@@ -1,0 +1,200 @@
+#h1
+
+{
+    text-decoration: underline red;
+    color:red;
+    text-shadow:5px 4px 2px yellow ;
+    text-align:center;
+    font-size:30px;
+}
+#section1
+{
+    float:right;
+}
+body{
+    background-image:url("C:\Users/thabasum/OneDrive/Pictures/t8.jpg");
+    background-repeat: no-repeat;
+    background-size:100% 700px;
+    height:1000px;
+    background-attachment: fixed;
+}
+#frm
+{
+    border:3px black solid;
+    margin-right:150px;
+    padding:10px;
+}
+.c1
+{
+    padding-right:100px;
+}
+td{
+    font-size:35px;
+    font-weight:bold;
+    color:purple;
+    padding-bottom: 30px;
+}
+input,select{
+    font-size:30px;
+    height:50px;
+    box-shadow: 10px 10px 3px crimson;
+    font-weight: bold;
+    text-align: center;
+    border-color: black;
+    width:400px;
+    padding:10px;
+    
+}
+select{
+    width:420px;
+}
+#add
+{
+    width:200px;
+    background-color: lime;
+    border-radius: 20px;
+    border:10px white ridge;
+    box-shadow:0px 0px 0px white;
+    color:blue;
+    padding-bottom:0px;
+    height:70px;
+}
+body
+{
+    background-image:url("C:\Users/thabasum/OneDrive/Pictures/book4.jpeg");
+    background-size:100% 700px;
+}
+#section2
+{
+    float:right;
+
+}
+#h2
+{
+    color:purple;
+    text-decoration: underline purple;
+    text-shadow:10px 5px 4px yellow;
+    font-size:30px;
+}
+
+#frm1
+{
+    border:3px black solid;
+    margin-right:30px;
+    padding:10px;
+}
+#type
+{
+    width:300px;
+}
+.book
+{
+    padding-right: 100px;
+    color:blue;
+}
+#value
+{
+    border-radius:30%;
+    font-size:20px;
+    box-shadow: 0px 0px 0px white;
+    width:200px;
+    text-align: center;
+    color:blue;
+    background-color: greenyellow;
+    border: 5px white ridge;
+}
+#h3
+{
+    color:maroon;
+    text-shadow:10px 3px 5px yellow;
+    text-decoration: underline;
+}
+#c3
+{
+    float:right;
+    width:800px;
+}
+#in
+{
+    width:700px;
+    border-style: none;
+    border-bottom: black 3px solid;
+    text-align: center;
+}
+#field
+{
+    padding-right: 30px;
+    margin-left: 300px;
+    border-color:purple;
+}
+#search
+{
+    font-size:20px;
+    color:blue;
+    background-color: greenyellow;
+    border-radius: 5px 5px 5px 5px;
+    width:200px;
+    text-align:center;
+    margin-left: 700px;
+    box-shadow: 0px 0px 0px white;
+    border: 5px ridge white;
+}
+#h5
+{
+    color:purple;
+    text-shadow: 6px 10px 7px yellow;
+    text-decoration-line: underline;
+}
+.t1
+{
+    padding-right:80px;
+
+}
+#div6
+{
+    float:right;
+}
+.t2
+{
+    margin-right:100px;
+    border-style:none;
+    border-bottom: black 4px solid;
+}
+#details
+{
+    font-size:20px;
+    color:blue;
+    background-color: lime;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 0px 0px white;
+    border:5px white ridge;
+    width:300px;
+    margin-left: 100px;
+}
+#h7
+{
+    color:maroon;
+    text-shadow:3px 3px 3px yellow;
+
+
+}
+#choice
+{
+    font-size:30px;
+    border-style:none;
+    border-bottom: bLACK 3px solid;
+    width:300px;
+     height:20px;
+     margin-left:100px;
+}
+    
+#go
+{
+    width:80px;
+    box-shadow: none;
+    border:3px white ridge;
+    border-radius: 13px;
+    color:blue;
+    background-color: lightpink;
+
+}

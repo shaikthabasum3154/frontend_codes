@@ -1,0 +1,47 @@
+#anchor1
+{
+    font-size:60px;
+
+}
+#anchor1:link{
+    color:red;
+}
+#anchor1:visited{
+    color:green;
+}
+#anchor1:active{
+    color:skyblue;
+}
+.hyperlink
+{
+    font-size:50px;
+}
+.hyperlink:link{
+    color:hotpink;
+    text-decoration-color: black;
+    background-color:yellow;
+}
+.hyperlink:visited
+{
+    color:black;
+    text-decoration-color:hotpink;
+    background-color:aqua;
+}
+body{
+    background-color: pink;
+}
+#thabbu:link
+{
+    height:100px;
+    width:100px;
+    color:red;
+    text-decoration-color: black;
+    background-color: blue;
+}
+#thabbu:visited
+{
+    color:green;
+    text-decoration-color:purple;
+    background-color:gray;
+
+}

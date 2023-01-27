@@ -1,0 +1,107 @@
+#field1
+{
+    width:50%;
+    height:300px;
+    /*to increase size of the border*/
+    border-width:30px;
+    /*to change color of border*/
+    border-color:black;
+    /*to change style od border*/
+    border-style: dashed;
+}
+#input 
+{
+    text-align: center;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform:capitalize ;
+    font-size: 30px;
+    border-width:8px;
+    border-color:blue;
+    border-radius:50px ;
+    border-style: double;
+
+}
+h1{
+    text-decoration-line: underline;
+    text-decoration-thickness: 8px;
+    text-decoration:underline double;
+    
+}
+#btn
+{
+    width:50%;
+    font-size:30px;
+    border-top-width:10px;
+    border-top-color: brown;
+    border-bottom-width:20px;
+    border-bottom-color:chartreuse;
+    border-left-width: 30px;
+    border-left-color:yellow;
+    border-right-width: 10px;
+    border-right-style:dotted;
+}
+#field2
+{
+    width:50%;
+    height:300px;
+
+   /* border-top-width:10px;
+    border-right-width:10px;
+    border-bottom-width:10px;
+    border-left-width:10px;*/
+
+    border-width:10px 20px 10px 20px;
+
+     /* border-top-color:blue;
+    border-right-color:red;
+    border-bottom-color:pink;
+    border-left-color:yellow;*/
+
+    border-color:yellow limegreen yellow limegreen;
+
+     /* border-top-style:dotted;
+    border-right-style:double;
+    border-bottom-style:dotted;
+    border-left-style:dashed;*/
+
+    border-style:ridge dotted;
+}
+#d1
+{
+    width:60%;
+    height:500px;
+    background-image: linear-gradient(blue , yellow);
+    /* border-width:10px;
+    border-color:blue;
+    border-style:pink;*/
+    border:20px blue ridge;
+
+}
+#frm1
+{
+    width:50%;
+    height:300px;
+    background-color:white;
+    border:30px green double;
+}
+#foot
+{
+    width:95%;
+    height:130px;
+    background-image:radial-gradient(black,white);
+    border-top: solid 20px blueviolet;
+    border-bottom:dashed 20px blue;
+}
+#next
+{
+    border-width:30px;
+    font-size:30px;
+    border-color:aquamarine;
+    border-radius:50px;
+    border-right:0px;
+    border-left:0px;
+    border-top:0px;
+    width:200px;
+
+}

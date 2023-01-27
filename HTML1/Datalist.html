@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html data list</title>
+</head>
+<body>
+    <form>
+        <label style="font-size:20px;">Enter the color:</label>
+    <input required placeholder="enter color" style="font-size:20px;" list="color">
+    <datalist id="color">
+        <option>black</option>
+        <option>pink</option>
+        <option>red</option>
+        <option>yellow</option>
+        <option>blue</option>
+        <option>green</option>
+    </datalist>
+    <br><br>
+    <!-- disabled(visible on webpage but user can't use it) -->
+    <input type="number" placeholder="mobile"  disabled>
+    <br><br>
+    <h1>Pattern Attribute usage</h1>
+    <!-- pattern is also used for condition of user input it was used only when type=text and type=password -->
+    <input placeholder="Enter mobile no." style="font-size:30px;" pattern="[0-9]{10}">
+    <br><br>
+    <input placeholder="enter name" style="font-size:30px;" pattern="[a-z]{7}">
+    <br><br>
+ <input placeholder="enter name" style="font-size:30px;" pattern="[A-Z]{1}[a-z]{3}">
+    <br><br>
+    <!-- write a pettern for pancard number  ABCDE1234H -->
+    <input placeholder="pancard number" style="font-size:30px;" pattern="[A-Z]{5}[0-9]{4}[A-Z]{1}" title="for ex:ABCDE1234H">
+    <br><br>
+    <!-- write a pattern for lastname 
+    1.it would starts with uppercase alphabets 
+2.followed by atleast 1 and atmost 10lowercase alphabets-->
+<input placeholder="lastname" style="font-size:20px;" pattern="[A-Z]{1}[a-z]{1,10}" title="starts with uppercase">
+<br><br>
+<!-- write a pattern for username
+1.it should starts with atleast 2 &atmost 10 lowercase alphabets
+2.followed by exact 1 @
+3.must & should ends with 3 digits -->
+<input placeholder="username" style="font-size:20px;" pattern="[a-z]{2,10}[@]{1}[0-9]{3,}">
+<br><br>
+    <input type="submit" style="font-size:20px;">
+
+</form>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+#mobile
+{
+    font-size:30px;
+    padding:20px 0px 20px 0px;
+}
+.direction
+{
+    font-size:40px;
+    color:blue;
+    margin:10px;
+}
+.r1
+{
+    width:40px;
+    height:40px;
+    padding: 5px;
+}
+.r1:checked{
+    outline:10px solid hotpink;
+}
+#field
+{
+    height:200px;
+    width:200px;
+    background-color:darkkhaki;
+    border-color:blue;
+}
+#field:hover{
+    border-radius:50% ;
+    height:300px;
+    width:300px;
+    background-color:aqua;
+    color:red;
+    border-color:blue;
+}
+#circle
+{
+    color:darkkhaki;
+}

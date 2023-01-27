@@ -1,0 +1,48 @@
+#em1
+{
+    font-size:60px;
+    color:red;
+    text-decoration: underline;
+    background-color: darkolivegreen;
+    width:80%;
+    height:300px;
+    text-align:center;
+    /* convert inline to block*/
+    display:block;
+}
+strong{
+    font-size:40px;
+}
+#field
+{
+    background-color:chartreuse;
+    border-width:20px;
+    width:200px;
+    height:200px;
+}
+#heading
+{
+    font-size:80px;
+    background-image: linear-gradient(pink,yellow);
+    width:50%;
+    height:200px;
+}
+#btn
+{
+    width:500px;
+    height:100px;
+}
+h2{
+    font-size:30px;
+    background-color: lightcoral;
+    height:200px;
+    /* block to inline*/
+    display:inline;
+}
+textarea{
+    font-size:30px;
+    font-weight: bold;
+    /* inline-block to block*/
+    width:500px;
+    height:300px;
+}

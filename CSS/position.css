@@ -1,0 +1,34 @@
+#main
+{
+    width:100%;
+    height: 2000px;
+    background-color: bisque;
+}
+.b1
+{
+    height:100px;
+    width:100px;
+    border:2px solid red;
+    margin-bottom:10px;
+    display:inline-block;
+    text-align: center;
+}
+#box
+{
+    position:absolute;
+}
+#box2
+{
+    position: relative;
+}
+#box4
+{
+    position: fixed;
+    bottom:20px;
+}
+#box1
+{
+    position: sticky;
+    top:10px;
+
+}

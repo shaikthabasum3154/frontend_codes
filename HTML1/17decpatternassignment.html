@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html pattern form</title>
+</head>
+<body>
+    <form>
+        <label style="font-size:20px; color:blue;">Enter aadhar number:</label>
+        <input placeholder="aadhar number" style="font-size:20px; background-color:blanchedalmond;"  pattern="[0-9]{4} [0-9]{4} [0-9]{4} [0-9]{4}" title="only 16 digits space after every 4 digits">
+        <br><br>
+        <label style="font-size:20px; color:blueviolet;"> Enter cvv of debit card:</label>
+        <input placeholder="cvv of debit card" style="font-size:20px; background-color: plum;" pattern="[0-9]{3}" title="only 3 digits">
+        <br><br>
+        <label style="font-size:20px; color:darkcyan;">Enter the password:</label>
+        <input placeholder="password" style="font-size:20px; background-color: rosybrown;" pattern="[a-z]{5,}[0-9]{1}[#]{1}" title="atleast start with 5 alphabets 1 digit atleast 1special char">
+        <br><br>
+        <input type="submit"  style="font-size:25px; background-color: darkkhaki;">
+    </form>
+    
+</body>
+</html>

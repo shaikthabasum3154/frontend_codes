@@ -1,0 +1,35 @@
+#table
+{
+    border:solid 10px black;
+    text-align:center;
+    border-collapse: collapse;
+    font-size:50px;
+    margin:50px;
+
+}
+td{
+    border:black 5px solid;
+    padding:20px;
+}
+.first
+{
+    background-color: aquamarine;
+}
+.second
+{
+    background-color: blue;
+
+}
+.rn
+{
+    text-align:left;
+}
+.percentage
+{
+    text-align:right;
+}
+#student
+{
+    background-color:darkkhaki;
+    text-shadow:5px 10px 5px blue;
+}

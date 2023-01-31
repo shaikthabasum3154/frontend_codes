@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONCHANGE IN JS</title>
+</head>
+<body>
+    <h1>Im from<span id="a"></span></h1>
+    <select id="b" onchange="places()">
+    <option value="select place here">-select-</option>
+    <option>Hyderabad</option>
+    <option value="AP">Guntur</option>
+    <option value="">Bhadrachalam</option>
+</select>
+<script>
+    function places()
+    {
+        var places=document.getElementById("b").value 
+        document.getElementById("a").innerHTML=places
+    }
+</script>
+
+    
+</body>
+</html>

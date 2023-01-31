@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment for employeee table</title>
+</head>
+<style>
+    table
+    {
+        height:300px;
+        border-collapse:collapse;
+    }
+    td{
+        border:3px solid black;
+    }
+    .f1
+    {
+        text-align: center;
+        margin-left: 10px;
+    }
+    #email
+    {
+        margin-left:100px;
+    }
+    #phno
+    {
+        margin-left: 100px;
+    }
+    #sub
+    {
+        height:50px;
+        width:100px;
+        margin-left: 150px;
+    }
+    div{
+        height:100px;
+        float:right;
+    }
+</style>
+<body>
+    <table>
+        <form>
+            <tr>
+                <td colspan="3" style="text-align:center;">EMPLOYEE TABLE</td>
+            </tr>
+            <tr>
+                <td colspan="3">
+          <input placeholder="First name" class="f1">
+          <input placeholder="surname" class="f1">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input placeholder="Email" id="email" ></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input placeholder="Phone no" id="phno"></td>
+            </tr>
+            <tr>
+                <td colspan="3">Gender:</td>
+                
+            </tr>
+            <tr colspan="1">
+                <td>
+                    <input type="radio">Male
+                </td>
+                <td>
+                    <input type="radio">Female
+                </td>
+                <td>
+                    <input type="radio">Other
+                    </td>
+            </tr>
+            <tr>
+                <td colspan="3">DOB:</td>
+            </tr>   
+            <tr>    
+                <td colspan="3">
+                    <input type="date" placeholder="day">
+                    <input type="month" placeholder="month">
+                    <input type="month" placeholder="year">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="button" id="sub" value="UPDATE">
+                </td>
+            </tr>
+        </form>
+    </table>
+    <div>
+        <h1></h1>
+    </div>
+    
+</body>
+</html>

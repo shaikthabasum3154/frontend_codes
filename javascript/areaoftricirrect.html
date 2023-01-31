@@ -7,18 +7,36 @@
     <title>Area of circle rectangle triangle</title>
 </head>
 <body>
-    <div id="output"></div>
+    <!-- <div id="output"></div> -->
     <script>
         var h=50;
         var b=50;
-    function triangle(h,b)
+        var r=25;
+        var l=100;
+        var b=50;
+
+    function triangle(height,breadth)
     {
-    var areatriangle=0.5*b*h;
-    // return areatriangle;
-    document.getElementById("output" +areatriangle );
+    var areatriangle=0.5*breadth*height;
+     return areatriangle;
+    // document.getElementById("output").innerHTML= areatriangle;
   }
-    let areatriangle=triangle(h,b);
-    document.write(areatringle);
+    var areatriangle=triangle(h,b);
+    function rectangle(l,b)
+    {
+        var areaofrectangle=(l*b);
+        return areaofrectangle;
+    }
+    var areaofrectangle=rectangle(l,b)
+    function circle(r)
+    {
+        var areaofcircle=(3.14*r*r)
+        return areaofcircle;
+    }
+    var areaofcircle=circle(r)
+    var v=areaofcircle-(areaofrectangle+areatriangle)
+    document.write(v)
+
 </script>
     
 </body>

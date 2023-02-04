@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event 2 and event 3 in events</title>
+    <title>on key down up html</title>
 </head>
-<body>
-    <input type="button" value="Magic" onmouseover="fun()" onmouseout="notfun()">
-   
+<body onkeydown="fun()" onkeyup="notfun()">
     <h1 id="a"></h1>
     <script>
         function fun()
         {
-            document.getElementById("a").innerHTML="Message"
+            document.getElementById("a").innerHTML="message"
         }
         function notfun()
         {
-            document.getElementById("a").innerHTML=""
+            document.getElementById("a").innerHTML="not a msg"
         }
-       
     </script>
-     
     
 </body>
 </html>

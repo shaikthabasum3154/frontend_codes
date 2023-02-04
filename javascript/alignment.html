@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment html</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"></link>
+</head>
+<body>
+    <button onclick="left()"><i class="fa-solid fa-align-left"></i></button>
+    <button onclick="center()"><i class="fa-solid fa-align-center"></i></button>
+    <button onclick="right()"><i class="fa-solid fa-align-right"></i></button>
+    <button onclick="justi()"><i class="fa-solid fa-align-justify"></i></button>
+    <p id="a">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem placeat delectus aliquid suscipit sunt fuga molestiae beatae minima tempore repellat inventore alias, impedit quos commodi dicta nihil, ullam quam? Ratione nesciunt, nobis rerum rem voluptatem, perspiciatis aut ut commodi aspernatur necessitatibus quae, fugiat nihil amet molestias incidunt neque vero sequi et minus! Alias commodi cumque, numquam aliquid magni laborum. Labore nam sint dicta fuga aliquam
+         voluptatem incidunt veniam doloribus quisquam cumque aperiam autem, a provident corporis accusantium error iusto ad odio eveniet. Ratione at repellendus quasi corrupti molestiae adipisci tempore et accusamus veniam magni, odit ab optio deserunt maxime pariatur.
+    </p>
+    <script>
+        function left()
+        {
+            document.getElementById("a").style.textAlign="left"
+        }
+        function center()
+        {
+            document.getElementById("a").style.textAlign="center"
+        }
+        function right()
+        {
+            document.getElementById("a").style.textAlign="right"
+        }
+        function justi()
+        {
+            document.getElementById("a").style.textAlign="justify"
+        }
+
+
+    </script>
+    
+    
+    
+</body>
+</html>

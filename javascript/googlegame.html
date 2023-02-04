@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>googlegame</title>
+    <style>
+        *
+        {
+            padding:0px;
+            margin:0px;
+        }
+        #a
+        {
+ 
+            position:absolute;
+            bottom:0px;
+        }
+        #b
+        {
+            width:320px;
+        }
+
+    </style>
+</head>
+<body onkeydown="jump()" onkeyup="back()">
+    <marquee id="a" direction="right" scrollamount="40">
+        <img id="b" src="../javascript/gif1.gif">
+    </marquee>
+    <script>
+        function jump()
+        {
+            document.getElementById("a").style.bottom="120px"
+        }
+        function back()
+        {
+            document.getElementById("a").style.bottom="0px"
+        }
+    </script>
+    
+</body>
+</html>

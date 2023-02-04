@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example feb 1st </title>
+</head>
+<style>
+    .btn
+    {
+        border:none;
+        background-color: white;
+    
+    }
+    #res
+    {
+        border:none;
+        background-color: white;
+    }
+    div{
+        border:black solid 2px;
+        width:300px;
+    }
+</style>
+<body>
+    <div>
+    <input type="button" value="-" onclick="dec()" class="btn">
+    <input type="number" value="0" id="res">
+    <input type="button" value="+" onclick="inc()" class="btn">
+</div>
+    <script>
+        var a=0;
+        function inc()
+        {
+            if (a>=0 && a<30)
+            {
+                document.getElementById("res").value=++a;
+            }
+        }
+        function dec()
+        {
+            if(a<=30&&a>0)
+            {
+                document.getElementById("res").value=--a;
+            }
+        }
+    </script>
+  
+    
+</body>
+</html>

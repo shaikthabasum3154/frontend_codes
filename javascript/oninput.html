@@ -4,24 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Event 2 and event 3 in events</title>
+    <title>On input in html</title>
 </head>
 <body>
-    <input type="button" value="Magic" onmouseover="fun()" onmouseout="notfun()">
-   
+    <input type="password" id="b" oninput="fun()">
     <h1 id="a"></h1>
     <script>
         function fun()
         {
-            document.getElementById("a").innerHTML="Message"
+            var a=document.getElementById("b").value 
+            document.getElementById("a").innerHTML=a
         }
-        function notfun()
-        {
-            document.getElementById("a").innerHTML=""
-        }
-       
     </script>
-     
     
 </body>
 </html>

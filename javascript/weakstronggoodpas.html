@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weak strong good </title>
+</head>
+<body>
+    <input type="password" id="pass" onclick="password()">
+    <h3 id="result"></h3>
+    <script>
+        function password()
+        {
+            var pass=document.getElementById("pass").value 
+            var passlen=pass.length
+            if(passlen==0)
+            {
+            document.getElementById("result").innerHTML=""
+            }
+            else if(passlen>=0&&passlen<=5)
+            {
+                document.getElementById("result").innerHTML="good password"
+            }
+            else if(passlen>=6&&passlen<=10)
+            {
+                document.getElementById("result").innerHTML="weak password"
+            }
+            else{
+                document.getElementById("result").innerHTML="strong password"
+            }
+        }
+    </script>
+</body>
+</html>

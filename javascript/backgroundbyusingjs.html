@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>backgroundcolor using js</title>
+    <style>
+        span{
+            font-size:20px;
+        }
+    </style>
+</head>
+<body id="b">
+    <input type="color" id="a" oninput="col()">
+    <br><br>
+    <input type="text" placeholder="Ennter any thing" id="c" oninput="text()"> 
+    <select id="e" onchange="fontsiz()">
+    <option >0</option>
+    <option >10</option>
+    <option >20</option>
+    <option >30</option>
+    <option >40</option>
+    <option>50</option>
+    <option >60</option>
+    <option >70</option>
+    <option >80</option>
+    <option >90</option>
+    <option >100</option>
+    <option >110</option>
+
+    </select>
+    <input type="color" id="f" oninput="textcol()">
+    <br>
+    <span id="d"></span>
+
+    <script>
+        function col()
+        {
+            var color=document.getElementById("a").value 
+            document.getElementById("b").style.backgroundColor=color
+        }
+        function text()
+        {
+            var tex=document.getElementById("c").value 
+            document.getElementById("d").innerHTML=tex
+        }
+        function fontsiz()
+        {
+            var siz=document.getElementById("e").value 
+            document.getElementById("d").style.fontSize=siz+"px"
+        }
+        function textcol()
+        { 
+            var col=document.getElementById("f").value
+            document.getElementById("d").style.color=col
+        }
+        
+    </script>
+    
+</body>
+</html>

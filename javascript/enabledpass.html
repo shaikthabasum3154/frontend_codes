@@ -4,11 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Password</title>
+    <title>enabled pass</title>
+    <style>
+        #b
+        {
+            color:green;
+        }
+    </style>
 </head>
 <body>
     <input type="password" id="pass" oninput="password()">
     <h3 id="result"></h3>
+    <input type="button" value="lOGIN" id="b" disabled>
     <script>
         function password()
         {
@@ -21,14 +28,19 @@
             else if (passlen>0 && passlen<=5)
             {
                 document.getElementById("result").innerHTML="WEAK PASSWORD"
+                document.getElementById("result").style.color="red"
+                document.getElementById("b").setAttribute("disabled","true")
             }
             else if (passlen>=6 && passlen<=10)
             {
                 document.getElementById("result").innerHTML="GOOD PASSWORD"
+                document.getElementById("result").style.color="purple"
+                document.getElementById("b").removeAttribute("disabled")
             }
             else
             {
                 document.getElementById("result").innerHTML="STRONG PASSWORD"
+                document.getElementById("result").style.color="green"
             }
         }
     </script>

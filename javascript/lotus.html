@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lotus</title>
+    <style>
+        .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+.flower {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  transform: rotate(45deg);
+}
+
+.petal {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50% 50% 0;
+  transform-origin: bottom;
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+  transform: rotate(-45deg) skew(-15deg);
+  background-color: #ff69b4;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+  transform: rotate(135deg) skew(15deg);
+  background-color: #ff69b4;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+  transform: rotate(-135deg) skew(15deg);
+  background-color: #ff69b4;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+  transform: rotate(45deg) skew(-15deg);
+  background-color: #ff69b4;
+}
+
+.center {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #fff;
+  top: 75px;
+  left: 75px;
+}
+
+.scroll-button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+    </style>
+</head>
+<body>
+    <!-- <div class="container">
+        <div class="flower">
+            <div class="petal top-left"></div>
+            <div class="petal top-right"></div>
+            <div class="petal bottom-left"></div>
+            <div class="petal bottom-right"></div>
+            <div class="center"></div>
+        </div> -->
+        <div class="scroll-button">
+            <input type="range" minlength="0" maxlength="100" value="0" step="10">
+        </div>
+    </div> 
+</body>
+</html>

@@ -13,23 +13,30 @@
     }
     #a
     {
-        height:200px;
-        width:200px;
-        background-color: yellowgreen;
-        border-radius:400px 400px 400px 400px;
-        transition-delay: 2s;
+        width:400px;
+       transition:rotate 10s;
+       
+    }
+    #btn
+    {
+        font-size: 50px;
+        background-color: chartreuse;
     }
 
     
     </style>
 </head>
 <body>
-    <div id="a"></div>
-    <input type="button" value="spin"  onmousedown="spin()" onmouseup="spin()">
+    <img src="../javascript/round.jpeg" id="a">
+    <input type="button" value="spin"  onmousedown="rot()" onmouseup="rotback()" id="btn">
     <script>
-    function spin()
+    function rot()
     {
-        document.getElementById("a").style.rotate="360deg";
+        document.getElementById("a").style.rotate="6360deg";
+    }
+    function rotback()
+    {
+        document.getElementById("a").style.rotate="0deg";
     }
    </script>
     

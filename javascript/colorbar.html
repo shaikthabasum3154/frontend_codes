@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color bar</title>
+    <style>
+        #a
+        {
+            position: relative;
+            height:300px;
+            width:100%;
+            display:flex;
+            align-items: center;
+            transition:all 0.5s;
+        }
+        #l
+        {
+            position:absolute;
+            left:0px;
+            width:120px;
+            height:50px;
+            font-size: 40px;
+            opacity:1;
+            border:0px;
+            outline:0px;
+        }
+        #r
+        {
+            position:absolute;
+            right:0px;
+            width:120px;
+            height:50px;
+            font-size: 40px;
+            opacity:1;
+            border:0px;
+            outline:0px;
+        }
+    </style>
+</head>
+<body>
+    <div id="a">
+        <input type="button" value="<<" onclick="dec()" id="l">
+        <input type="button" value=">>" onclick="inc()" id="r">
+    </div>
+    <script>
+        var col=["black","pink","blue","green" ,"lime" ,"hotpink","cornflowerblue","maroon"]
+        var n=0;
+        function inc()
+        {
+            if ( n==8)
+            {
+                n=0
+            }
+            document.getElementById("a").style.backgroundColor=col[n]
+            n++
+        }
+        function dec()
+        {
+            
+            if (n==-1)
+            {
+                n=7
+            }
+            document.getElementById("a").style.backgroundColor=col[n]
+            n--;
+        }
+       
+    </script>
+
+    
+</body>
+</html>

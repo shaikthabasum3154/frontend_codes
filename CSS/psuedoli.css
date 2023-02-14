@@ -13,7 +13,7 @@ width:40%;
 }
 li:last-child
 {
-    text-shadow: 0px 0px 10px red;
+    text-shadow: 0px 0px 10px green;
     letter-spacing: 20px;
 }
 li:nth-child(even)

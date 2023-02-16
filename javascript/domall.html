@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dom all</title>
+</head>
+<body>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <h1></h1>
+    <script>
+        var lenofelement=document.getElementsByTagName("h1").length
+         var container=document.getElementsByTagName("h1")
+         for(i=0;i<=lenofelement;i++)
+         {
+            if(i%2==0)
+            {
+                container[i].style.backgroundColor="red"
+                container[i].style.color="black"
+            }
+            else{
+
+            container[i].style.color="red"
+            container[i].style.backgroundColor="black"
+            }
+            container[i].innerHTML="this is my "+(i+1)+"hi "
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template literals</title>
+</head>
+<body>
+    <script>
+        function add(a,b)
+        {
+           return a+b;
+        }
+        var day="Thursday"
+        var a=`This is ME and today is "${day}" and we 'started' with template literals topic of a and b is ${add(6,7)}
+        the complete day is ${Date()}`
+        document.write(a)
+    </script>
+    
+</body>
+</html>

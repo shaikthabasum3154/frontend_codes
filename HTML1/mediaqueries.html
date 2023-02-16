@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media queries</title>
+    <style>
+        .box
+        {
+            font-size:80px;
+            text-align:center;
+            background-color: darkslategray;
+            color:white;
+            display:none;
+
+        }
+        @media(max-width:500px){
+            #box1{
+                display:block;
+                background-color: yellow;
+            }
+        }
+        @media(min-width:300px){
+            #box2{
+                display:block;
+                background-color: red;
+            }
+        }
+        @media(max-width:700px){
+            #box3{
+                display:block;
+                color:black;
+                background-color:purple;
+            }
+        }
+        @media(min-width:800px){
+            #box4{
+                display:block;
+                background-color: green;
+            }
+        }
+        
+
+
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Iam Iphone</div>
+    <div class="box" id="box2">Iam poco mobile</div>
+    <div class="box" id="box3">Iam samsung mobile</div>
+    <div class="box" id="box4">Iam mi mobile</div>
+    
+</body>
+</html>

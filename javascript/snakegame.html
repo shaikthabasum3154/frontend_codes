@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>snakegame</title>
+     <title>Snake game</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #a{
+            width: 120px;
+            position: relative;
+        }
+        #left{
+            position: absolute;
+            width: 60px;
+            rotate: -90deg;
+            left: 0px;
+            bottom: 20px;
+        }
+        #up{
+            position: absolute;
+            width: 60px;
+            right: 35%;
+            top: 20px;
+        }
+        #right{
+            position: absolute;
+            width: 60px;
+            rotate: 90deg;
+            right: 0px;
+            bottom: 20px;
+        }
+        #down{
+            position: absolute;
+            width: 60px;
+            rotate: 180deg;
+            bottom: 20px;
+            right: 35%;
+        }
+        #kayboard{
+            width: 200px;
+            height: 200px;
+            position: relative;
+            top: 250px;
+            left: 400px;
+            background-color: plum;
+        }
+    </style>
 </head>
 <body>
-    
+    <img src="./snakegif.gif" id="a">
+    <div id="kayboard">
+        <i class="fa-solid fa-arrow-right>  id="left" onclick="leftb()"></i>
+        <img src="" id="up" onclick="upb()">
+        <img src="" id="right" onclick="rightb()">
+        <img src="" id="down" onclick="downb()">
+    </div>
+    <script>
+        var hor=0;
+        var vir=0;
+        function rightb()
+        {
+            hor++;
+            document.getElementById("a").style.left=hor+"%"
+            document.getElementById("a").style.rotate="0deg"
+        }
+        function leftb()
+        {
+            hor--;
+            document.getElementById("a").style.left=hor+"%"
+            document.getElementById("a").style.rotate="180deg"
+        }
+        function upb()
+        {
+            vir++;
+            document.getElementById("a").style.bottom=( vir*10)+"px"
+            document.getElementById("a").style.rotate="-90deg"
+        }
+        function downb()
+        {
+            hor++;
+            document.getElementById("a").style.bottom=(vir*10)+"px"
+            document.getElementById("a").style.rotate="90deg"
+        }
+    </script>
 </body>
 </html>
